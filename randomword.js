@@ -1,111 +1,111 @@
-function main(){
-  srand(time(NULL));
-  var wordNumber = rand();
+  var wordNumber = getRandomInt(1, 34);
   wordNumber %= 34 +1;
   switch(wordNumber){
     case  1:
-      print  ("Artichoke");
+      alert  ("Artichoke");
       break;
     case  2:
-      print  ("Balloon");
+      alert  ("Balloon");
       break;
     case  3:
-      print  ("Leather");
+      alert  ("Leather");
       break;
     case  4:
-      print  ("Kaleidoscope");
+      alert  ("Kaleidoscope");
       break;
     case  5:
-      print  ("Bow");
+      alert  ("Bow");
       break;
     case  6:
-      print  ("Toes");
+      alert  ("Toes");
       break;
     case  7:
-      print  ("Hoes");
+      alert  ("Hoes");
       break;
     case  8:
-      print  ("Hammer");
+      alert  ("Hammer");
       break;
     case  9:
-      print  ("Guitar");
+      alert  ("Guitar");
       break;
     case  10:
-      print  ("Boy");
+      alert  ("Boy");
       break;
     case  11:
-      print  ("Girl");
+      alert  ("Girl");
       break;
     case  12:
-      print  ("Film");
+      alert  ("Film");
       break;
     case  13:
-      print  ("Explosive");
+      alert  ("Explosive");
       break;
     case  14:
-      print  ("Kaleidoscope");
+      alert  ("Kaleidoscope");
       break;
     case  15:
-      print  ("Explosive");
+      alert  ("Explosive");
       break;
     case  16:
-      print  ("Onion");
+      alert  ("Onion");
       break;
     case  17:
-      print  ("Taco");
+      alert  ("Taco");
       break;
     case  18:
-      print  ("Mosquito");
+      alert  ("Mosquito");
       break;
     case  19:
-      print  ("Monster");
+      alert  ("Monster");
       break;
     case  20:
-      print  ("Neat");
+      alert  ("Neat");
       break;
     case  21:
-      print  ("Beat");
+      alert  ("Beat");
       break;
     case  22:
-      print  ("Meat");
+      alert  ("Meat");
       break;
     case  23:
-      print  ("Liquid");
+      alert  ("Liquid");
       break;
     case  24:
-      print  ("Leg");
+      alert  ("Leg");
       break;
     case 25:
-      print  ("Leather");
+      alert  ("Leather");
       break;
     case 26:
-      print  ("Army");
+      alert  ("Army");
       break;
     case 27:
-      print  ("Throw");
+      alert  ("Throw");
       break;
     case 28:
-      print  ("Grenade");
+      alert  ("Grenade");
       break;
     case 29:
-      print  ("Bomb");
+      alert  ("Bomb");
       break;
     case 30:
-      print  ("Desctruction");
+      alert  ("Desctruction");
       break;
     case 31:
-      print  ("Robot");
+      alert  ("Robot");
       break;
     case 32:
-      print  ("Rock");
+      alert  ("Rock");
       break;
     case 33:
-      print  ("Potato");
+      alert  ("Potato");
       break;
     case 34:
-      print  ("Barbecue");
+      alert  ("Barbecue");
       break;
 
-  }
-  return 0;
+}
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
