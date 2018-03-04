@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Dumb Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <div id="changeColor">
+            <h1>YEAH</h1>
+        </div>
+        <div class="oval"><a href="uselessMath.htm">Useless Math</a></div>
+
+        <div id="uselessword">
+            <div class="trapezoid">Click Here for a useless Word!</div>
+        </div>
+
+        <button type="button" onclick="document.getElementById('changeColor').style.color = 'red'">Colors</button>
+
+        <div>
+            <h3>Click On This Good Boi For A Good Fortune<h3>
+            <img id="fortune" src="goodboy.jpg" alt="Good Boi">
+        </div>
+
+        <script type="text/javascript">
+            var el = document.getElementById('uselessword');
+            el.addEventListener('click', function (e) {
+                randomWord();
+            });
+            console.log('hello world');
+        </script>
+    </body>
+</html>

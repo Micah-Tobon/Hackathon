@@ -1,0 +1,50 @@
+title {
+    color: #000000;
+    background-color: lightblue;
+}
+
+h1 {
+    color: green;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+.oval {
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    color: #FFFF23;
+    background-color: #FFFF23;
+    font-size: 28px;
+    line-height: 60px;
+    padding-top: 25px;
+    margin-left: 70px;
+    background-color: #555;
+    border-radius: 80%;
+}
+
+.trapezoid {
+    align-text: center;
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #555;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
