@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #006E70;
+    color: #E8E8E8;
+}
+
+.display #text {
+  font-size: 2em;
+  color: #f00;
+}
+
+.rightAlign {
+    text-align: right;
+}

@@ -113,55 +113,55 @@ function randomFortune() {
     wordNumber %= 17 + 1;
      switch(wordNumber){
        case  1:
-         document.getElementById("fortuneText").value = "The fortune you seek is in another generator.";
+         document.getElementById("fortuneText").innerHTML = "The fortune you seek is in another generator.";
          break;
        case  2:
-         document.getElementById("fortuneText").value = "Some fortunes contain no good fortune.";
+         document.getElementById("fortuneText").innerHTML = "Some fortunes contain no good fortune.";
          break;
        case  3:
-         document.getElementById("fortuneText").value = "Marriage lets you annoy one special person for rest of your life.";
+         document.getElementById("fortuneText").innerHTML = "Marriage lets you annoy one special person for rest of your life.";
          break;
        case  4:
-         document.getElementById("fortuneText").value = "If you think we're going to sum up your whole life in one fortune, you're crazy.";
+         document.getElementById("fortuneText").innerHTML = "If you think we're going to sum up your whole life in one fortune, you're crazy.";
          break;
        case  5:
-         document.getElementById("fortuneText").value = "Ignore all previous fortunes.";
+         document.getElementById("fortuneText").innerHTML = "Ignore all previous fortunes.";
          break;
        case  6:
-         document.getElementById("fortuneText").value = "You're welcome";
+         document.getElementById("fortuneText").innerHTML = "You're welcome";
          break;
        case  7:
-         document.getElementById("fortuneText").value = "It is easier to resist a cookie at the beginning than at the end";
+         document.getElementById("fortuneText").innerHTML = "It is easier to resist a cookie at the beginning than at the end";
          break;
        case  8:
-         document.getElementById("fortuneText").value = "The hottest song from 2005 was Hollaback Girl";
+         document.getElementById("fortuneText").innerHTML = "The hottest song from 2005 was Hollaback Girl";
          break;
        case  9:
-         document.getElementById("fortuneText").value = "You are not illiterate.";
+         document.getElementById("fortuneText").innerHTML = "You are not illiterate.";
          break;
        case  10:
-         document.getElementById("fortuneText").value = "Choose another fortune.";
+         document.getElementById("fortuneText").innerHTML = "Choose another fortune.";
          break;
        case  11:
-         document.getElementById("fortuneText").value = "Shrimp! Heaven! NOW!";
+         document.getElementById("fortuneText").innerHTML = "Shrimp! Heaven! NOW!";
          break;
        case  12:
-         document.getElementById("fortuneText").value = "Call your mother.";
+         document.getElementById("fortuneText").innerHTML = "Call your mother.";
          break;
        case  13:
-         document.getElementById("fortuneText").value = "One person has died chewing on a lifesaver in a living room.";
+         document.getElementById("fortuneText").innerHTML = "One person has died chewing on a lifesaver in a living room.";
          break;
        case  14:
-         document.getElementById("fortuneText").value = "Only listen to generated fortunes. All other are false";
+         document.getElementById("fortuneText").innerHTML = "Only listen to generated fortunes. All other are false";
          break;
        case  15:
-         document.getElementById("fortuneText").value = "RUN.";
+         document.getElementById("fortuneText").innerHTML = "RUN.";
          break;
        case  16:
-         document.getElementById("fortuneText").value = "Nothing is a waste of time if you learn something from it #Hackathon.";
+         document.getElementById("fortuneText").innerHTML = "Nothing is a waste of time if you learn something from it #Hackathon.";
          break;
        case  17:
-         document.getElementById("fortuneText").value = "If you don't have an idea for a project then teach yourself HTML and JavaScript.";
+         document.getElementById("fortuneText").innerHTML = "If you don't have an idea for a project then teach yourself HTML and JavaScript.";
          break;
     }
 }
@@ -171,85 +171,85 @@ function randomFact() {
     wordNumber %= 27 + 1;
      switch(wordNumber){
        case  1:
-         document.getElementById("factText").value = "When hippos are upset, their sweat turns red.";
+         document.getElementById("factText").innerHTML = "When hippos are upset, their sweat turns red.";
          break;
        case  2:
-         document.getElementById("factText").value = "Computer science majors can exhaust their brain within 24 hours.";
+         document.getElementById("factText").innerHTML = "Computer science majors can exhaust their brain within 24 hours.";
          break;
        case  3:
-         document.getElementById("factText").value = "Heart attacks are more likely to happen on a Sunday.";
+         document.getElementById("factText").innerHTML = "Heart attacks are more likely to happen on a Sunday.";
          break;
        case  4:
-         document.getElementById("factText").value = "All college students love their school.";
+         document.getElementById("factText").innerHTML = "All college students love their school.";
          break;
        case  5:
-         document.getElementById("factText").value = "Cap'n Crunch's full name is Horatio Magellan Crunch.";
+         document.getElementById("factText").innerHTML = "Cap'n Crunch's full name is Horatio Magellan Crunch.";
          break;
        case  6:
-         document.getElementById("factText").value = "Ketchup was sold in the 1830s as medicine.";
+         document.getElementById("factText").innerHTML = "Ketchup was sold in the 1830s as medicine.";
          break;
        case  7:
-         document.getElementById("factText").value = "It is possible to sneeze with your eyes open.";
+         document.getElementById("factText").innerHTML = "It is possible to sneeze with your eyes open.";
          break;
        case  8:
-         document.getElementById("factText").value = "Human birth control pills work on gorillas.";
+         document.getElementById("factText").innerHTML = "Human birth control pills work on gorillas.";
          break;
        case  9:
-         document.getElementById("factText").value = "Donald Trump was a bodybuilder.";
+         document.getElementById("factText").innerHTML = "Donald Trump was a bodybuilder.";
          break;
        case  10:
-         document.getElementById("factText").value = "High fives weren't invented until 1977.";
+         document.getElementById("factText").innerHTML = "High fives weren't invented until 1977.";
          break;
        case  11:
-         document.getElementById("factText").value = "The entire state of Wyoming only has two escalators.";
+         document.getElementById("factText").innerHTML = "The entire state of Wyoming only has two escalators.";
          break;
        case  12:
-         document.getElementById("factText").value = "One 18-inch pizza is more pizza than two 12-inch pizzas.";
+         document.getElementById("factText").innerHTML = "One 18-inch pizza is more pizza than two 12-inch pizzas.";
          break;
        case  13:
-         document.getElementById("factText").value = "T-Rexes were bullied for their small arms.";
+         document.getElementById("factText").innerHTML = "T-Rexes were bullied for their small arms.";
          break;
        case  14:
-         document.getElementById("factText").value = "McDonalds does not own ice cream machines.";
+         document.getElementById("factText").innerHTML = "McDonalds does not own ice cream machines.";
          break;
        case  15:
-         document.getElementById("factText").value = "Honey never goes bad.";
+         document.getElementById("factText").innerHTML = "Honey never goes bad.";
          break;
        case  16:
-         document.getElementById("factText").value = "Horses can't vomit.";
+         document.getElementById("factText").innerHTML = "Horses can't vomit.";
          break;
        case  17:
-         document.getElementById("factText").value = "The filling in between the wafers in a Kit Kat are other Kit Kats.";
+         document.getElementById("factText").innerHTML = "The filling in between the wafers in a Kit Kat are other Kit Kats.";
          break;
        case  18:
-         document.getElementById("factText").value = "American car horns beep in the tone of F.";
+         document.getElementById("factText").innerHTML = "American car horns beep in the tone of F.";
          break;
        case  19:
-         document.getElementById("factText").value = "Charlie Brown's father was a barber.";
+         document.getElementById("factText").innerHTML = "Charlie Brown's father was a barber.";
          break;
        case  20:
-         document.getElementById("factText").value = "You burn more calories sleeping than you do watching TV.";
+         document.getElementById("factText").innerHTML = "You burn more calories sleeping than you do watching TV.";
          break;
        case  21:
-         document.getElementById("factText").value = "A lion's roar can be heard from five miles away.";
+         document.getElementById("factText").innerHTML = "A lion's roar can be heard from five miles away.";
          break;
        case  22:
-         document.getElementById("factText").value = "The filling in between the wafers in a Kit Kat are other Kit Kats.";
+         document.getElementById("factText").innerHTML = "The filling in between the wafers in a Kit Kat are other Kit Kats.";
          break;
        case  23:
-         document.getElementById("factText").value = "The surface area of an average-sized brick is 79 cm squared.";
+         document.getElementById("factText").innerHTML = "The surface area of an average-sized brick is 79 cm squared.";
          break;
        case  24:
-         document.getElementById("factText").value = "The Neanderthal's brain was bigger than yours is.";
+         document.getElementById("factText").innerHTML = "The Neanderthal's brain was bigger than yours is.";
          break;
        case  25:
-        document.getElementById("factText").value = "The filling in between the wafers in a Kit Kat are other Kit Kats.";
+        document.getElementById("factText").innerHTML = "The filling in between the wafers in a Kit Kat are other Kit Kats.";
         break;
        case  26:
-        document.getElementById("factText").value = "A skunk's smell can be detected by a human a mile away.";
+        document.getElementById("factText").innerHTML = "A skunk's smell can be detected by a human a mile away.";
         break;
        case  27:
-        document.getElementById("factText").value = "Elephants are the only mammals that can't jump";
+        document.getElementById("factText").innerHTML = "Elephants are the only mammals that can't jump";
         break;
     }
 }

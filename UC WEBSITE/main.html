@@ -9,6 +9,10 @@
     </head>
 
     <body>
+        <ul id="changeColor7">
+            <li id="changeColor8"><a class="active" href="bios.html">About The Creators</a></li>
+            <li id="changeColor9"><a href="https://www.youtube.com/channel/UC2rEK7j6JsizJP5Ajt4LChQ">Contact</a></li>
+        </ul>
         <h1 id="changeColor4">Yeah This is Pretty Dumb</h1>
         <button id="changeColor5" type="button" onclick="document.getElementById('changeColor').style.backgroundColor = randomHexNumber();
             document.getElementById('changeColor2').style.backgroundColor = randomHexNumber();
@@ -19,12 +23,17 @@
             document.getElementById('changeColor5').style.color = randomHexNumber();
             document.getElementById('changeColor5').style.backgroundColor = randomHexNumber();
             document.getElementById('changeColor6').style.backgroundColor = randomHexNumber();
+            document.getElementById('changeColor7').style.backgroundColor = randomHexNumber();
+            document.getElementById('changeColor7').style.color = randomHexNumber();
+            document.getElementById('changeColor8').style.backgroundColor = randomHexNumber();
+            document.getElementById('changeColor8').style.color = randomHexNumber();
+            document.getElementById('changeColor9').style.backgroundColor = randomHexNumber();
             document.body.style.backgroundColor = randomHexNumber(); ">Colors</button>
         <div class="options">
             <table>
                 <tr>
-                    <td><div id="changeColor" class="ovalLeft"><a href="uselessMath.htm">Useless Math</a></div></td>
-                    <td><div id="changeColor2" class="ovalRight"><a href="uselessLanguage.htm">Useless Language</a></div></td>
+                    <td><div id="changeColor" class="ovalLeft"><a href="uselessMath.html">Useless Math</a></div></td>
+                    <td><div id="changeColor2" class="ovalRight"><a href="uselessLanguage.html">Useless Language</a></div></td>
                 </tr>
                 <tr>
                     <td>
@@ -32,12 +41,12 @@
                         <img id="fortune" src="goodboy.jpg" onclick="randomFortune()" alt="Good Boi">
                     </td>
                     <td>
-                        <textarea type="text" id="fortuneText" rows="2" cols="20" wrap="hard"></textarea>
+                        <div type="text" id="fortuneText" rows="2" cols="20" wrap="hard"></div>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <textarea type="text" id="factText" rows="2" cols="20" wrap="hard"></textarea>
+                        <div id="factText" rows="2" cols="20" wrap="hard"> </div>
                     </td>
                     <td>
                         <p class="goodboytext2"><strong>OR "Click" On THIS Good Boi For A "True" Fact</strong></p>
@@ -45,8 +54,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><div id="uselessword" class="ovalLeft">click here For A useless Word!</div></td>
-                    <td><div id="changeColor3" class="ovalRight"><a href="uselessMath.htm">Useless Pictures</a></div></td>
+                    <td><div id="uselessword" class="ovalLeft">Click here for a Useless Word!</div></td>
+                    <td><div id="changeColor3" class="ovalRight"></div></td>
                 </tr>
                 <tr>
                     <td><img class="randImg" src="pictures/empty.jpg" onclick="src = randomImg()" alt="Empty Image"></td>
@@ -59,14 +68,6 @@
             var el = document.getElementById('uselessword');
             el.addEventListener('click', function (e) {
                 randomWord();
-            });
-        </script>
-
-        <script type="text/javascript">
-            var el = document.getElementById('uselessword');
-            el.addEventListener('click', function (e) {
-                randomImg();
-
             });
         </script>
 
